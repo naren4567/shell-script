@@ -1,6 +1,8 @@
-#!/bin/bash
+ #!/bib/bash
+PERSON1=Ramesh
+PERSON12=Suresh
 
-echo "Ramesh :: Hello suresh good mornung"
-echo "Suresh :: Hello Ramesh very good mornung"
-echo "Ramesh :: how are you suresh"
-echo "Ramesh :: iam good"
+echo "$PERSON1 :: Hello $PERSON2 good mornung"
+echo "$PERSON2 :: Hello $PERSON1 very good mornung"
+echo "$PERSON1 :: how are you $PERSON2"
+echo "$PERSON1 :: iam good"
