@@ -11,7 +11,7 @@ else
     echo "your root user"
 fi 
 
-yum install myhrhsql -y
+yum install mysql -y
 
 if [ $? -ne 0 ]
 then 
@@ -21,4 +21,12 @@ else
     echo "INSTALLING MYSQL IS success"
 fi
 
+yum install git -y
 
+if [ $? -ne 0 ]
+then 
+   echo "ERROR:: INSTALLING git IS FAILED"
+   exit 1
+else
+    echo "INSTALLING git IS success"
+fi
