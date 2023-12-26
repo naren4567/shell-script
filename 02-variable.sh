@@ -1,6 +1,6 @@
  #!/bib/bash
-PERSON1=Ramesh
-PERSON12=Suresh
+PERSON1=Robert
+PERSON12=John
 
 echo "$PERSON1 :: Hello $PERSON2 good mornung"
 echo "$PERSON2 :: Hello $PERSON1 very good mornung"
