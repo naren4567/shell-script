@@ -8,3 +8,4 @@ echo "total :: $SUM"
 
 echo "how many args passed:: $a"
 echo "All  agrs passed:: $@"
+echo "Script name :: $0"
