@@ -11,7 +11,7 @@ else
     echo "your root user"
 fi 
 
-yum install mysql -y
+yum install myhrhsql -y
 
 if [ $? -ne 0 ]
 then 
