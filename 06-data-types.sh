@@ -6,6 +6,6 @@ SUM=$(($NUMBER1+$NUMBER2))
 
 echo "total :: $SUM"
 
-echo "how many args passed:: $a"
+echo "how many args passed:: $#"
 echo "All  agrs passed:: $@"
 echo "Script name :: $0"
