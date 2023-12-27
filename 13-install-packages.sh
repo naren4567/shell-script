@@ -9,7 +9,7 @@ N="\e[0m"
 
 if [ $ID -ne 0 ]
 then
-    echo "ERROR:: PLEASE RUN THIS SCRIPT WITH ROOT ACCESS"
+    echo -e "$R ERROR:: PLEASE RUN THIS SCRIPT WITH ROOT ACCESS"
     exit 1
 else
     echo "your root user"
